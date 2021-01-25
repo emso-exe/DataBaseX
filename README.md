@@ -1,4 +1,4 @@
-<img src="images/databasex.svg" alt="" width="128" height="92"> 
+<img src="images/databasex.svg" alt="" width="128" height="120"> 
 
 # DataBaseX
 
