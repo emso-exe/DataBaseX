@@ -5,7 +5,7 @@ INSERT INTO `perfil`
 VALUES 
     (1, 'Administrador', '2020-02-19 21:49:43', NULL),
     (2, 'Super usuário', '2020-02-19 21:49:43', NULL),
-    (3, 'Usuário', '2020-02-19 21:49:43', NULL)
+    (3, 'Usuário', '2020-02-19 21:49:43', NULL),
     (4, 'Sem perfil', '2020-02-19 21:49:43', NULL);
 UNLOCK TABLES;
 
@@ -13,7 +13,7 @@ LOCK TABLES `setor` WRITE;
 INSERT INTO `setor`
 VALUES 
     (1, 'Desenvolvimento', '2020-02-19 21:47:14', NULL),
-    (2, 'Infraestrutura', '2020-02-19 21:48:14', NULL);
+    (2, 'Infraestrutura', '2020-02-19 21:48:14', NULL),
     (3, 'Suporte', '2020-02-19 21:49:14', NULL),
     (4, 'Gerência', '2020-02-19 21:50:14', NULL);
 UNLOCK TABLES;
@@ -59,7 +59,8 @@ VALUES
 (112, 'MELLANI CRISTIANE DA SILVA', 1, 8, '2020-02-28 18:22:57', NULL),
 (113, 'JOÃO ADAMASTOR EUSTÁQUIO', 1, 9, '2020-02-28 21:28:31', NULL),
 (114, 'SAMANTHA ALBUQUERQUE LIMA', 1, 1, '2020-03-02 01:27:51', NULL),
-(115, 'CHRISTOPHER DA SILVA ALVES', 1, 2, '2020-04-10 23:11:20', NULL),
+(115, 'CHRISTOPHER DA SILVA ALVES', 1, 2, '2020-04-10 23:11:20', NULL);
+UNLOCK TABLES;
 
 LOCK TABLES `login` WRITE;
 INSERT INTO `login`
@@ -79,5 +80,5 @@ VALUES
 (112, '112mellani', '0', NULL),
 (113, '113joao', '0', NULL),
 (114, '114samantha', '0', NULL),
-(115, '115christopher', '0', NULL),
+(115, '115christopher', '0', NULL);
 UNLOCK TABLES;
