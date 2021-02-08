@@ -8,6 +8,12 @@
 
 - MySQL
 
+## Lista de Bancos
+
+- db_crudx.sql - script MySQL do banco de dados utilizado nos projetos [CrudX](https://github.com/emso-exe/CrudX) e [SyntheticX](https://github.com/emso-exe/SyntheticX).
+    - tabelas: setor, cargo, perfil, status, usuario e login.
+    - insert_db_crudx.sql: script com registros para inserção no banco para testes.
+
 ## Créditos
 
 - [Estênio Mariano](https://github.com/emso-exe)
