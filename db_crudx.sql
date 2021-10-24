@@ -104,8 +104,8 @@ CREATE TABLE IF NOT EXISTS `db_crudx`.`login` (
   CONSTRAINT `fk_login_usuario_id_matricula`
     FOREIGN KEY (`id_matricula`)
     REFERENCES `db_crudx`.`usuario` (`id_matricula`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
 ENGINE = InnoDB;
 
 SET SQL_MODE=@OLD_SQL_MODE;
